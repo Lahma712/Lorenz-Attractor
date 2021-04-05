@@ -97,3 +97,6 @@ class Drw(Widget):
 class Diff(App):
 	def build(self):
 		return Drw()
+	
+if __name__ == "__main__":
+    Diff().run()
